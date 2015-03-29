@@ -36,7 +36,7 @@ class Producer extends Thread {
         return message;
     }
 
- 
+}
 class Consumer extends Thread {
     Producer producer;
     
@@ -60,5 +60,4 @@ class Consumer extends Thread {
         producer.start();
         new Consumer( producer ).start();
     }
-}
 }
