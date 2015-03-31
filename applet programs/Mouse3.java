@@ -32,6 +32,7 @@ public class Mouse3 extends Applet
    public void mousePressed( MouseEvent e ) { }
    public void mouseReleased( MouseEvent e ) { }
    public void mouseMoved( MouseEvent e ) {
+   
 
       if ( listOfPositions.size() >= 50 ) {
          // delete the first element in the list
