@@ -42,8 +42,6 @@ property to false}
 
 
         class CalcFrame extends Frame {
-
-
             CalcFrame( String str) {
             // call to superclass
             super(str);
