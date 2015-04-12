@@ -1,4 +1,4 @@
-UNKNOWN
+//UNKNOWN
 
 //**************************************
 //HTML for :Simple/Scientific Calculator
@@ -63,7 +63,7 @@ property to false}
     // and ItemListener
 
 
-        public class Calculator implements ActionListener, ItemListener {
+         class Calculator implements ActionListener, ItemListener {
         // creating instances of objects
         CalcFrame fr;
         MenuBar mb;
@@ -765,5 +765,5 @@ property to false}
             dispose();
         }
     }
-    End of source code
+    //End of source code
   
