@@ -96,13 +96,13 @@ void clearAll()
  lastOperator = 0;
  lastNumber = 0;
  displayMode = INPUT_MODE;
- boolean clearOnNextDigit = true;
+ clearOnNextDigit = true;
  }
 
 void clearLastEntry()
  {
  setDisplayString("0");
- boolean clearOnNextDigit = true;
+ clearOnNextDigit = true;
  displayMode = INPUT_MODE;
  }
 
@@ -112,7 +112,7 @@ void displayResult(double result)
  setDisplayString(Double.toString(result));
  lastNumber = result;
  displayMode = RESULT_MODE;
- boolean clearOnNextDigit = true;
+ clearOnNextDigit = true;
  }
 
 void displayError(String errorMessage)
@@ -120,7 +120,7 @@ void displayError(String errorMessage)
  setDisplayString(errorMessage);
  lastNumber = 0;
  displayMode = ERROR_MODE;
- boolean clearOnNextDigit = true;
+ clearOnNextDigit = true;
  }
 
 void addButtonToPanel(Panel panel, Button button, Color backgroundColour)
@@ -213,7 +213,7 @@ void processOperator(char op)
    {
    lastNumber = numberInDisplay;
    }
-  boolean clearOnNextDigit = true;
+  clearOnNextDigit = true;
   lastOperator = op;
   }
  }
